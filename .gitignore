@@ -1,0 +1,8 @@
+out/
+.idea
+*.iml
+res/
+savegames/
+src/main
+src/test
+temp/
