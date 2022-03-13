@@ -34,7 +34,7 @@ public class Main {
     }
 
     public static void createFile(String fileName) {
-        File logFile = new File(fileName);
+        File logFile = new File(PATH + fileName);
         try {
             if (logFile.createNewFile())
                 sb.append("Файл " + fileName + " был создан \n");
